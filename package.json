@@ -1,0 +1,30 @@
+{
+  "name": "scaffold-api-typescript",
+  "version": "1.0.0",
+  "description": "Scaffold api with typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gouh/scaffold-api-typescript.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "ExpressJs",
+    "NodeJs",
+    "Typescript"
+  ],
+  "author": "Hugo Hernandez Valdez <hugohv10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gouh/scaffold-api-typescript/issues"
+  },
+  "homepage": "https://github.com/gouh/scaffold-api-typescript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
