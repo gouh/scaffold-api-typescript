@@ -4,6 +4,8 @@
   "description": "Scaffold api with typescript",
   "main": "dist/app.js",
   "scripts": {
+    "dev": "nodemon -e ts --exec \"tsc -p ./tsconfig.json && node ./dist/app.js\"",
+    "prod": "tsc -p ./tsconfig.json && node ./dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
